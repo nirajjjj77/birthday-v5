@@ -211,8 +211,10 @@ p {
 #copy p {
   color: #6a0c1a;
   text-align: center;
-  font-weight: 700;
   cursor: pointer;
+  font-size: 14px; /* ya jo size chahiye */
+  font-family: 'Poppins', sans-serif; /* ya koi specific font */
+  font-weight: 600;
 }
 
 @media screen and (max-width: 658px)    {
