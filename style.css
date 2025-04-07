@@ -171,3 +171,23 @@ body {
         margin-top: 3px !important;
         backdrop-filter: blur(8px);
     }
+
+    #copy {
+        position: fixed;
+        bottom: 12px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 1rem;
+    }
+      
+    #copy a {
+        text-decoration: none;
+        color: #191919d7;
+    }
+      
+    #copy p {
+        color: #6a0c1a;
+        text-align: center;
+        font-weight: 700;
+        cursor: pointer;
+    }
