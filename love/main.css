@@ -27,25 +27,31 @@
   }
 
   .birthday-text {
-    position: absolute;
-    top: 50px; /* adjust as needed */
-    width: 100%;
     text-align: center;
-    z-index: 10;
-    color: white; /* ya koi aur jo background pe dikhe */
-    font-family: 'cursive', sans-serif;
+    margin-top: 50px;
+    font-family: 'Pacifico', cursive;
   }
   
   .birthday-text h1 {
-    font-size: 36px;
+    font-size: 40px;
+    background: linear-gradient(to right, #ff6ec4, #7873f5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 5px rgba(255, 182, 193, 0.6);
     margin: 0;
   }
   
   .birthday-text h2 {
-    font-size: 48px;
-    font-weight: bold;
-    margin: 5px 0 0 0;
-  }  
+    font-size: 50px;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 3px 3px 8px rgba(255, 255, 255, 0.5);
+    margin: 0;
+  }
+    
   
   #drag-container, #spin-container {
     position: relative;
