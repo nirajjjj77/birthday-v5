@@ -25,6 +25,27 @@
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
   }
+
+  .birthday-text {
+    position: absolute;
+    top: 50px; /* adjust as needed */
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+    color: white; /* ya koi aur jo background pe dikhe */
+    font-family: 'cursive', sans-serif;
+  }
+  
+  .birthday-text h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .birthday-text h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 5px 0 0 0;
+  }  
   
   #drag-container, #spin-container {
     position: relative;
