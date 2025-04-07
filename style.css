@@ -193,3 +193,21 @@ body {
         font-family: 'Poppins', sans-serif; /* ya koi specific font */
         font-weight: 700;
     }
+
+    @media (max-width: 480px) {
+        #ket {
+            margin-bottom: 60px; /* extra space below text */
+            text-align: center;
+            padding: 0 10px;
+        }
+    
+        #Tombol {
+            flex-direction: column;
+            align-items: center;
+            z-index: 2; /* make sure it's above other elements */
+        }
+    
+        #Tombol a {
+            margin: 8px 0;
+        }
+    }    
