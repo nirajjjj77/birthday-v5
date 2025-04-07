@@ -56,7 +56,16 @@
     text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.4);
     margin: 0;
   }
-    
+
+  @media screen and (max-width: 658px) {
+    .birthday-text h1 {
+      font-size: 24px;
+    }
+  
+    .birthday-text h2 {
+      font-size: 30px;
+    }
+  }   
   
   #drag-container, #spin-container {
     position: relative;
