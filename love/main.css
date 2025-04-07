@@ -214,7 +214,7 @@ p {
   cursor: pointer;
   font-size: 14px; /* ya jo size chahiye */
   font-family: 'Poppins', sans-serif; /* ya koi specific font */
-  font-weight: 600;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 658px)    {
